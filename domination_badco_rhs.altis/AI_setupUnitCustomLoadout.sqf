@@ -52,6 +52,7 @@
 	//if vehicle crew force into default
 	if ((vehicle _this) != _this) then {
 		_this removeWeapon _primary;
+		_primary = "asdaergerg";
 	};
 	
 	switch ([_primary] call BIS_fnc_baseWeapon) do {

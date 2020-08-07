@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=8900;
+		nextID=8905;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={26577.236,-4.0918627,24798.602};
-		dir[]={-0.22812308,-0.96288168,0.14436394};
-		up[]={-0.8136512,0.26993594,0.51488549};
-		aside[]={0.53474325,4.4376211e-006,0.84502959};
+		pos[]={26453.23,-14.336429,24760.891};
+		dir[]={-0.41792807,-0.8738054,0.24867043};
+		up[]={-0.75094104,0.48624673,0.44681725};
+		aside[]={0.51134598,5.022157e-007,0.85939294};
 	};
 };
 binarizationWanted=0;
@@ -621,7 +621,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1357;
+		items=1359;
 		class Item0
 		{
 			dataType="Marker";
@@ -12419,7 +12419,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="76561198039019269";
+							value="d_zeus";
 						};
 					};
 				};
@@ -12438,7 +12438,7 @@ class Mission
 									"SCALAR"
 								};
 							};
-							value=0;
+							value=1;
 						};
 					};
 				};
@@ -31867,17 +31867,18 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={26648.27,13.469973,24776.662};
-				angles[]={0.054613575,0.88051313,0.042704828};
+				position[]={26648.27,13.470439,24776.662};
+				angles[]={0.054611351,0.88051862,0.042708207};
 			};
 			side="Empty";
+			flags=4;
 			class Attributes
 			{
 				name="d_ammobox_19";
 			};
 			id=7657;
 			type="Box_IND_WpsSpecial_F";
-			atlOffset=0.78753376;
+			atlOffset=4.6730042e-005;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -31895,7 +31896,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""rhs_weap_asval_grip"",""rhs_weap_asval_grip_npz"",""rhs_weap_asval_npz"",""rhs_weap_vss_grip"",""rhs_weap_vss_grip_npz"",""rhs_weap_vss_npz""],[1,1,1,1,1,1]],[[],[]],[[""NVGogglesB_blk_F"",""B_UavTerminal""],[2,1]],[[],[]]],false]";
+							value="[[[[""rhs_weap_asval_grip"",""rhs_weap_asval_grip_npz"",""rhs_weap_asval_npz"",""rhs_weap_vss_grip"",""rhs_weap_vss_grip_npz"",""rhs_weap_vss_npz""],[1,1,1,1,1,1]],[[],[]],[[""NVGogglesB_blk_F""],[2]],[[],[]]],false]";
 						};
 					};
 				};
@@ -47415,6 +47416,7 @@ class Mission
 			flags=5;
 			class Attributes
 			{
+				init="this addAction [""<img size='2' image='\a3\ui_f\data\IGUI\Cfg\Actions\heal_ca'/>"",{" \n "player playmove ""AinvPknlMstpSlayWrflDnon_medic"";" \n "sleep 5; " \n "player setdamage 0;" \n "}, [], 0, true, true, """", ""((vehicle player) == player) && {(damage player) > 0}"", 5];";
 				dynamicSimulation=1;
 			};
 			id=8381;
@@ -48883,7 +48885,7 @@ class Mission
 												"SCALAR"
 											};
 										};
-										value=0;
+										value=2;
 									};
 								};
 								class Item1
@@ -58708,7 +58710,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="removeVest this;  this setGroupIdGlobal [""BadCompany""];";
+						init="this setGroupIdGlobal [""BadCompany""];";
 						name="d_badco_11";
 						description="Bad Company - Crewman";
 						isPlayable=1;
@@ -58753,21 +58755,6 @@ class Mission
 									{
 										name="rhsusf_ANPVS_14";
 										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="rhsusf_iotv_ocp";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="rhs_mag_an_m8hc";
-										count=1;
-										ammoLeft=1;
 									};
 								};
 							};
@@ -58835,7 +58822,7 @@ class Mission
 					flags=4;
 					class Attributes
 					{
-						init="removeVest this;  this setGroupIdGlobal [""BadCompany""];";
+						init="this setGroupIdGlobal [""BadCompany""];";
 						name="d_badco_12";
 						description="Bad Company - Crewman";
 						isPlayable=1;
@@ -58880,21 +58867,6 @@ class Mission
 									{
 										name="rhsusf_ANPVS_14";
 										count=1;
-									};
-								};
-							};
-							class vest
-							{
-								typeName="rhsusf_iotv_ocp";
-								isBackpack=0;
-								class MagazineCargo
-								{
-									items=1;
-									class Item0
-									{
-										name="rhs_mag_an_m8hc";
-										count=1;
-										ammoLeft=1;
 									};
 								};
 							};
@@ -59000,8 +58972,8 @@ class Mission
 					class Attributes
 					{
 						name="d_admin";
+						presenceCondition="false";
 						description="Admin";
-						isPlayable=1;
 						class Inventory
 						{
 							class handgun
@@ -59483,6 +59455,165 @@ class Mission
 					};
 				};
 				nAttributes=2;
+			};
+		};
+		class Item1357
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={26784.381,22.089048,24649.936};
+				angles[]={0,5.4035773,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=8900;
+			type="SignAd_Sponsor_ARMEX_F";
+			atlOffset=2.6702881e-005;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ObjectTextureCustom0";
+					expression="_this setObjectTextureGlobal [0,_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="pics\flaps.paa";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="allowDamage";
+					expression="_this allowdamage _value;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				nAttributes=2;
+			};
+		};
+		class Item1358
+		{
+			dataType="Group";
+			side="West";
+			class Entities
+			{
+				items=1;
+				class Item0
+				{
+					dataType="Object";
+					class PositionInfo
+					{
+						position[]={8558.3203,129.75381,25042.238};
+						angles[]={0,2.5281096,0};
+					};
+					side="West";
+					flags=7;
+					class Attributes
+					{
+						name="d_zeus";
+						description="Zeus";
+						isPlayable=1;
+					};
+					id=8902;
+					type="C_man_shorts_1_F";
+					atlOffset=0.12731934;
+					class CustomAttributes
+					{
+						class Attribute0
+						{
+							property="speaker";
+							expression="_this setspeaker _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"STRING"
+										};
+									};
+									value="Male04GRE";
+								};
+							};
+						};
+						class Attribute1
+						{
+							property="pitch";
+							expression="_this setpitch _value;";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=0.98000002;
+								};
+							};
+						};
+						nAttributes=2;
+					};
+				};
+			};
+			class Attributes
+			{
+			};
+			id=8901;
+			atlOffset=0.12731934;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="groupID";
+					expression="_this setGroupID [_value];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="Zeus";
+						};
+					};
+				};
+				nAttributes=1;
 			};
 		};
 	};
