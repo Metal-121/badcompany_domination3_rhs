@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={26474.75,-8.9989347,24748.41};
-		dir[]={-0.13247918,-0.98792744,0.080323026};
-		up[]={-0.84478045,0.15491724,0.51219594};
-		aside[]={0.51845586,1.0212534e-007,0.85510528};
+		pos[]={26450.627,-14.809247,24769.592};
+		dir[]={-0.14687443,-0.98639536,0.07421606};
+		up[]={-0.88036907,0.16448885,0.44485262};
+		aside[]={0.45101047,1.7414568e-006,0.89255047};
 	};
 };
 binarizationWanted=0;
@@ -29233,7 +29233,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={26725.721,19.981398,24647.379};
+				position[]={26725.721,21.003069,24647.379};
 				angles[]={6.2818484,0.45526075,0.0026520467};
 			};
 			side="Empty";
@@ -29244,6 +29244,7 @@ class Mission
 			};
 			id=7593;
 			type="Box_NATO_WpsLaunch_F";
+			atlOffset=0.14166832;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -30352,8 +30353,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={26732.146,20.488188,24634.182};
-				angles[]={0.034652505,0.19346142,0.042640556};
+				position[]={26732.146,21.383698,24634.184};
+				angles[]={0.034644786,0.19346975,0.042673297};
 			};
 			side="Empty";
 			flags=4;
@@ -30363,7 +30364,7 @@ class Mission
 			};
 			id=7615;
 			type="Box_NATO_Equip_F";
-			atlOffset=-0.00057220459;
+			atlOffset=0.013708115;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -30381,7 +30382,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[""optic_Holosight"",""optic_Holosight_khk_F"",""optic_Holosight_smg"",""optic_Holosight_smg_khk_F"",""acc_flashlight_pistol"",""acc_flashlight"",""acc_flashlight_smg_01"",""rhs_acc_1p29"",""rhs_acc_1p63"",""rhs_acc_rakursPM"",""rhs_acc_1p78"",""rhs_acc_1p87"",""rhs_acc_1pn93_1"",""rhs_acc_1pn93_2"",""rhs_acc_2dpZenit"",""rhs_acc_2dpZenit_ris"",""rhs_acc_6p9_suppressor"",""rhsusf_acc_grip2"",""rhsusf_acc_grip2_tan"",""rhsusf_acc_grip2_wd"",""rhsusf_acc_T1_high"",""rhsusf_acc_T1_low"",""rhsusf_acc_T1_low_fwd"",""rhs_acc_uuk"",""rhsusf_acc_anpas13gv1"",""rhsusf_acc_anpeq15side"",""rhsusf_acc_anpeq15_top"",""rhsusf_acc_anpeq15_wmx"",""rhsusf_acc_anpeq15_wmx_light"",""rhsusf_acc_anpeq15side_bk"",""rhsusf_acc_anpeq15_bk_top"",""rhsusf_acc_anpeq15"",""rhsusf_acc_anpeq15_light"",""rhsusf_acc_anpeq15_bk"",""rhsusf_acc_anpeq15_bk_light"",""rhsusf_acc_anpeq15A"",""rhsusf_acc_anpeq16a"",""rhsusf_acc_anpeq16a_light"",""rhsusf_acc_anpeq16a_top"",""rhsusf_acc_anpeq16a_light_top"",""rhsusf_acc_ACOG2_USMC"",""rhsusf_acc_ACOG3_USMC"",""rhsusf_acc_ACOG_USMC"",""rhsusf_acc_anpvs27"",""rhsusf_acc_ARDEC_M240"",""rhs_acc_at4_handler"",""rhs_bipod"",""rhs_acc_dtk1l"",""rhs_acc_ak5"",""rhs_acc_dtk"",""rhs_acc_dtkakm"",""rhs_acc_dtk1983"",""rhs_acc_dtk1"",""rhs_acc_dtk1p"",""rhs_acc_dtk2"",""rhs_acc_dtk3"",""rhs_acc_dtk4short"",""rhs_acc_dtk4screws"",""rhs_acc_dtk4long"",""rhs_acc_ekp1"",""rhs_acc_ekp8_02"",""rhs_acc_ekp8_18"",""rhsusf_acc_EOTECH"",""rhsusf_acc_g33_T1"",""rhsusf_acc_g33_xps3"",""rhsusf_acc_g33_xps3_tan"",""rhsusf_acc_grip1"",""rhs_acc_harris_swivel"",""rhsusf_acc_harris_bipod"",""rhsusf_acc_harris_swivel"",""rhsusf_acc_ELCAN"",""rhsusf_acc_ELCAN_ard"",""rhsusf_acc_ACOG"",""rhsusf_acc_ACOG2"",""rhsusf_acc_ACOG3"",""rhsusf_acc_ACOG_anpvs27"",""rhsusf_acc_m24_muzzlehider_black"",""rhsusf_acc_m24_muzzlehider_d"",""rhsusf_acc_m24_muzzlehider_wd"",""rhsusf_acc_m24_silencer_black"",""rhsusf_acc_m24_silencer_d"",""rhsusf_acc_m24_silencer_wd"",""rhsusf_acc_M2A1"",""rhs_optic_maaws"",""rhsusf_acc_eotech_552"",""rhsusf_acc_eotech_552_d"",""rhsusf_acc_eotech_552_wd"",""rhsusf_acc_compm4"",""rhsusf_acc_M952V"",""optic_Holosight_blk_F"",""optic_Holosight_smg_blk_F"",""optic_MRD"",""rhsusf_acc_mrds"",""rhsusf_acc_mrds_fwd"",""rhsusf_acc_mrds_c"",""rhsusf_acc_mrds_fwd_c"",""rhs_acc_nita"",""rhsusf_acc_nt4_black"",""rhsusf_acc_nt4_tan"",""rhs_acc_pbs1"",""rhs_acc_pbs4"",""rhs_acc_perst1ik"",""rhs_acc_perst1ik_ris"",""rhs_acc_perst3"",""rhs_acc_perst3_top"",""rhs_acc_perst3_2dp_h"",""rhs_acc_perst3_2dp_light_h"",""rhs_acc_pgs64"",""rhs_acc_pgs64_74u"",""rhs_acc_pgs64_74un"",""rhs_acc_pgo7v"",""rhs_acc_pgo7v2"",""rhs_acc_pgo7v3"",""rhs_acc_pkas"",""rhs_acc_grip_rk2"",""rhs_acc_grip_rk6"",""rhsusf_acc_RM05"",""rhsusf_acc_RM05_fwd"",""rhsusf_acc_rotex5_grey"",""rhsusf_acc_rotex5_tan"",""rhsusf_acc_rotex_mp7_aor1"",""rhsusf_acc_rotex_mp7"",""rhsusf_acc_rotex_mp7_desert"",""rhsusf_acc_rotex_mp7_winter"",""rhsusf_acc_rvg_blk"",""rhsusf_acc_rvg_de"",""rhsusf_acc_RX01_NoFilter"",""rhsusf_acc_RX01"",""rhsusf_acc_RX01_NoFilter_tan"",""rhsusf_acc_RX01_tan"",""rhsusf_acc_grip4"",""rhsusf_acc_SF3P556"",""rhsusf_acc_SFMB556"",""rhsusf_acc_omega9k"",""rhs_weap_optic_smaw"",""rhsusf_acc_SR25S"",""rhsusf_acc_SR25S_d"",""rhsusf_acc_SR25S_wd"",""rhsusf_acc_su230"",""rhsusf_acc_su230_c"",""rhsusf_acc_su230_mrds"",""rhsusf_acc_su230_mrds_c"",""rhsusf_acc_su230a"",""rhsusf_acc_su230a_c"",""rhsusf_acc_su230a_mrds"",""rhsusf_acc_su230a_mrds_c"",""rhsusf_acc_ACOG_MDO"",""rhsusf_acc_ACOG_d"",""rhsusf_acc_ACOG_wd"",""rhsusf_acc_ACOG_RMR"",""rhsusf_acc_tdstubby_blk"",""rhsusf_acc_tdstubby_tan"",""rhsusf_acc_grip3"",""rhsusf_acc_grip3_tan"",""rhs_acc_tgpa"",""rhs_acc_tgpv"",""rhs_acc_tgpv2"",""rhsusf_acc_M2010S"",""rhsusf_acc_M2010S_d"",""rhsusf_acc_M2010S_sa"",""rhsusf_acc_wmx"",""rhsusf_acc_wmx_bk"",""rhsusf_acc_eotech_xps3"",""muzzle_snds_338_black"",""muzzle_snds_338_green"",""muzzle_snds_338_sand"",""muzzle_snds_acp"",""muzzle_snds_570"",""muzzle_snds_M"",""muzzle_snds_m_khk_F"",""muzzle_snds_m_snd_F"",""muzzle_snds_H"",""muzzle_snds_H_khk_F"",""muzzle_snds_H_snd_F"",""muzzle_snds_B"",""muzzle_snds_B_khk_F"",""muzzle_snds_B_snd_F"",""muzzle_snds_L"",""muzzle_snds_93mmg"",""muzzle_snds_93mmg_tan"",""rhsusf_acc_tacsac_blue"",""rhsusf_acc_tacsac_tan"",""bipod_01_F_blk"",""bipod_01_F_khk"",""bipod_01_F_mtp"",""bipod_01_F_snd"",""rhsusf_acc_M2010S_wd""],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[""optic_Holosight"",""optic_Holosight_khk_F"",""optic_Holosight_smg"",""optic_Holosight_smg_khk_F"",""acc_flashlight_pistol"",""acc_flashlight"",""acc_flashlight_smg_01"",""rhs_acc_1p29"",""rhs_acc_1p63"",""rhs_acc_rakursPM"",""rhs_acc_1p78"",""rhs_acc_1p87"",""rhs_acc_1pn93_1"",""rhs_acc_1pn93_2"",""rhs_acc_2dpZenit"",""rhs_acc_2dpZenit_ris"",""rhs_acc_6p9_suppressor"",""rhsusf_acc_grip2"",""rhsusf_acc_grip2_tan"",""rhsusf_acc_grip2_wd"",""rhsusf_acc_T1_high"",""rhsusf_acc_T1_low"",""rhsusf_acc_T1_low_fwd"",""rhs_acc_uuk"",""rhsusf_acc_anpeq15side"",""rhsusf_acc_anpeq15_top"",""rhsusf_acc_anpeq15_wmx"",""rhsusf_acc_anpeq15_wmx_light"",""rhsusf_acc_anpeq15side_bk"",""rhsusf_acc_anpeq15_bk_top"",""rhsusf_acc_anpeq15"",""rhsusf_acc_anpeq15_light"",""rhsusf_acc_anpeq15_bk"",""rhsusf_acc_anpeq15_bk_light"",""rhsusf_acc_anpeq15A"",""rhsusf_acc_anpeq16a"",""rhsusf_acc_anpeq16a_light"",""rhsusf_acc_anpeq16a_top"",""rhsusf_acc_anpeq16a_light_top"",""rhsusf_acc_ACOG2_USMC"",""rhsusf_acc_ACOG3_USMC"",""rhsusf_acc_ACOG_USMC"",""rhsusf_acc_ARDEC_M240"",""rhs_acc_at4_handler"",""rhs_acc_dtk1l"",""rhs_acc_ak5"",""rhs_acc_dtk"",""rhs_acc_dtkakm"",""rhs_acc_dtk1983"",""rhs_acc_dtk1"",""rhs_acc_dtk1p"",""rhs_acc_dtk2"",""rhs_acc_dtk3"",""rhs_acc_dtk4short"",""rhs_acc_dtk4screws"",""rhs_acc_dtk4long"",""rhs_acc_ekp1"",""rhs_acc_ekp8_02"",""rhs_acc_ekp8_18"",""rhsusf_acc_EOTECH"",""rhsusf_acc_g33_T1"",""rhsusf_acc_g33_xps3"",""rhsusf_acc_g33_xps3_tan"",""rhsusf_acc_grip1"",""rhs_acc_harris_swivel"",""rhsusf_acc_harris_bipod"",""rhsusf_acc_harris_swivel"",""rhsusf_acc_ACOG"",""rhsusf_acc_ACOG2"",""rhsusf_acc_ACOG3"",""rhsusf_acc_m24_muzzlehider_black"",""rhsusf_acc_m24_muzzlehider_d"",""rhsusf_acc_m24_muzzlehider_wd"",""rhsusf_acc_m24_silencer_black"",""rhsusf_acc_m24_silencer_d"",""rhsusf_acc_m24_silencer_wd"",""rhs_optic_maaws"",""rhsusf_acc_eotech_552"",""rhsusf_acc_eotech_552_d"",""rhsusf_acc_eotech_552_wd"",""rhsusf_acc_compm4"",""rhsusf_acc_M952V"",""optic_Holosight_blk_F"",""optic_Holosight_smg_blk_F"",""optic_MRD"",""rhsusf_acc_mrds"",""rhsusf_acc_mrds_fwd"",""rhsusf_acc_mrds_c"",""rhsusf_acc_mrds_fwd_c"",""rhs_acc_nita"",""rhsusf_acc_nt4_black"",""rhsusf_acc_nt4_tan"",""rhs_acc_pbs1"",""rhs_acc_pbs4"",""rhs_acc_perst1ik"",""rhs_acc_perst1ik_ris"",""rhs_acc_perst3"",""rhs_acc_perst3_top"",""rhs_acc_perst3_2dp_h"",""rhs_acc_perst3_2dp_light_h"",""rhs_acc_pgs64"",""rhs_acc_pgs64_74u"",""rhs_acc_pgs64_74un"",""rhs_acc_pgo7v"",""rhs_acc_pgo7v2"",""rhs_acc_pgo7v3"",""rhs_acc_pkas"",""rhs_acc_grip_rk2"",""rhs_acc_grip_rk6"",""rhsusf_acc_RM05"",""rhsusf_acc_RM05_fwd"",""rhsusf_acc_rotex5_grey"",""rhsusf_acc_rotex5_tan"",""rhsusf_acc_rotex_mp7_aor1"",""rhsusf_acc_rotex_mp7"",""rhsusf_acc_rotex_mp7_desert"",""rhsusf_acc_rotex_mp7_winter"",""rhsusf_acc_rvg_blk"",""rhsusf_acc_rvg_de"",""rhsusf_acc_RX01_NoFilter"",""rhsusf_acc_RX01"",""rhsusf_acc_RX01_NoFilter_tan"",""rhsusf_acc_RX01_tan"",""rhsusf_acc_grip4"",""rhsusf_acc_SF3P556"",""rhsusf_acc_SFMB556"",""rhsusf_acc_omega9k"",""rhs_weap_optic_smaw"",""rhsusf_acc_SR25S"",""rhsusf_acc_SR25S_d"",""rhsusf_acc_SR25S_wd"",""rhsusf_acc_su230"",""rhsusf_acc_su230_c"",""rhsusf_acc_su230_mrds"",""rhsusf_acc_su230_mrds_c"",""rhsusf_acc_su230a"",""rhsusf_acc_su230a_c"",""rhsusf_acc_su230a_mrds"",""rhsusf_acc_su230a_mrds_c"",""rhsusf_acc_ACOG_d"",""rhsusf_acc_ACOG_wd"",""rhsusf_acc_ACOG_RMR"",""rhsusf_acc_tdstubby_blk"",""rhsusf_acc_tdstubby_tan"",""rhsusf_acc_grip3"",""rhsusf_acc_grip3_tan"",""rhs_acc_tgpa"",""rhs_acc_tgpv"",""rhs_acc_tgpv2"",""rhsusf_acc_M2010S"",""rhsusf_acc_M2010S_d"",""rhsusf_acc_M2010S_sa"",""rhsusf_acc_wmx"",""rhsusf_acc_wmx_bk"",""rhsusf_acc_eotech_xps3"",""muzzle_snds_338_black"",""muzzle_snds_338_green"",""muzzle_snds_338_sand"",""muzzle_snds_acp"",""muzzle_snds_570"",""muzzle_snds_M"",""muzzle_snds_m_khk_F"",""muzzle_snds_m_snd_F"",""muzzle_snds_H"",""muzzle_snds_H_khk_F"",""muzzle_snds_H_snd_F"",""muzzle_snds_B"",""muzzle_snds_B_khk_F"",""muzzle_snds_B_snd_F"",""muzzle_snds_L"",""muzzle_snds_93mmg"",""muzzle_snds_93mmg_tan"",""rhsusf_acc_tacsac_blue"",""rhsusf_acc_tacsac_tan"",""bipod_01_F_blk"",""bipod_01_F_khk"",""bipod_01_F_mtp"",""bipod_01_F_snd"",""rhsusf_acc_M2010S_wd""],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],[[],[]]],false]";
 						};
 					};
 				};
@@ -30412,8 +30413,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={26732.352,20.310886,24637.258};
-				angles[]={6.2631865,4.9058509,0.097027972};
+				position[]={26732.352,21.252382,24637.258};
+				angles[]={6.2631865,4.9058509,0.097047657};
 			};
 			side="Empty";
 			flags=4;
@@ -30423,7 +30424,7 @@ class Mission
 			};
 			id=7616;
 			type="Box_NATO_WpsSpecial_F";
-			atlOffset=-0.00097846985;
+			atlOffset=0.057649612;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -59550,7 +59551,7 @@ class Mission
 					};
 					id=8902;
 					type="C_man_shorts_1_F";
-					atlOffset=0.15820169;
+					atlOffset=0.15819716;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -59599,7 +59600,7 @@ class Mission
 			{
 			};
 			id=8901;
-			atlOffset=0.15820169;
+			atlOffset=0.15819716;
 			class CustomAttributes
 			{
 				class Attribute0
