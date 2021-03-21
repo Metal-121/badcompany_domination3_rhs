@@ -555,8 +555,9 @@ class DynamicSimulation
 randomSeed=10318084;
 class ScenarioData
 {
-	author="by Xeno, modified by A.Renton, K.Hunter";
+	author="by Xeno, modified by A.Renton, K.Hunter";	
 	respawnDialog=0;
+	disabledAI=1;
 	respawn=3;
 	respawnDelay=20;
 	class Header
