@@ -21,9 +21,9 @@ class EditorData
 	class Camera
 	{
 		pos[]={26496.752,-5.856544,24734.195};
-		dir[]={-0.042986043,-0.99541456,0.085460201};
-		up[]={-0.44729224,0.095652796,0.88925773};
-		aside[]={0.89335489,3.1664968e-008,0.44935253};
+		dir[]={-0.042986047,-0.99541384,0.085460253};
+		up[]={-0.44729173,0.09566246,0.88925749};
+		aside[]={0.89335454,0,0.44935253};
 	};
 };
 binarizationWanted=0;
@@ -32252,8 +32252,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={26649.881,13.002367,24775.238};
-				angles[]={0.05461248,2.4091752,0.042640556};
+				position[]={26649.881,13.002413,24775.238};
+				angles[]={0.054611351,2.4091825,0.042638395};
 			};
 			side="Empty";
 			flags=4;
@@ -32264,7 +32264,7 @@ class Mission
 			};
 			id=7661;
 			type="Box_AAF_Uniforms_F";
-			atlOffset=-0.022046089;
+			atlOffset=-0.022000313;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -32282,7 +32282,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[""V_PlateCarrierGL_blk"",""V_PlateCarrier1_blk"",""V_PlateCarrier2_blk"",""V_PlateCarrierSpec_blk"",""V_Chestrig_blk"",""V_Pocketed_black_F"",""V_TacVestIR_blk"",""V_BandollierB_blk"",""V_TacVest_blk"",""G_Balaclava_blk"",""G_Balaclava_combat"",""G_Balaclava_lowprofile"",""G_Bandanna_blk"",""H_Bandanna_gry"",""H_PASGT_basic_black_F"",""H_Watchcap_blk"",""H_Beret_blk"",""G_Balaclava_TI_blk_F"",""G_Balaclava_TI_G_blk_F"",""G_Aviator"",""H_Cap_blk"",""U_I_G_resistanceLeader_F"",""H_Cap_headphones"",""G_WirelessEarpiece_F"",""G_Bandanna_aviator"",""G_Bandanna_beast"",""G_Bandanna_shades"",""G_Bandanna_sport"",""H_EarProtectors_black_F"",""H_HeadSet_black_F"",""H_Bandanna_khk_hs"",""H_Cap_marshal"",""H_Booniehat_khk_hs"",""rhsusf_shemagh_grn"",""rhsusf_shemagh2_grn"",""rhsusf_shemagh_gogg_grn"",""rhsusf_shemagh2_gogg_grn"",""rhs_uniform_g3_blk"",""rhsusf_opscore_bk"",""rhsusf_opscore_bk_pelt"",""H_HelmetB_black"",""rhsusf_protech_helmet"",""rhsusf_protech_helmet_ess"",""rhsusf_protech_helmet_rhino"",""rhsusf_protech_helmet_rhino_ess"",""U_O_R_Gorka_01_black_F""],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],[[""B_AssaultPack_blk"",""B_TacticalPack_blk"",""B_ViperHarness_blk_F"",""B_LegStrapBag_black_F"",""B_RadioBag_01_black_F"",""RHS_Podnos_Bipod_Bag""],[1,1,1,1,1,1]]],false]";
+							value="[[[[],[]],[[],[]],[[""V_PlateCarrierGL_blk"",""V_PlateCarrier1_blk"",""V_PlateCarrier2_blk"",""V_PlateCarrierSpec_blk"",""V_Chestrig_blk"",""V_Pocketed_black_F"",""V_TacVestIR_blk"",""V_BandollierB_blk"",""V_TacVest_blk"",""G_Balaclava_blk"",""G_Balaclava_combat"",""G_Balaclava_lowprofile"",""G_Bandanna_blk"",""H_Bandanna_gry"",""H_PASGT_basic_black_F"",""H_Watchcap_blk"",""H_Beret_blk"",""G_Balaclava_TI_blk_F"",""G_Balaclava_TI_G_blk_F"",""G_Aviator"",""H_Cap_blk"",""U_I_G_resistanceLeader_F"",""H_Cap_headphones"",""G_WirelessEarpiece_F"",""G_Bandanna_aviator"",""G_Bandanna_beast"",""G_Bandanna_shades"",""G_Bandanna_sport"",""H_EarProtectors_black_F"",""H_HeadSet_black_F"",""H_Bandanna_khk_hs"",""H_Cap_marshal"",""H_Booniehat_khk_hs"",""rhsusf_shemagh_grn"",""rhsusf_shemagh2_grn"",""rhsusf_shemagh_gogg_grn"",""rhsusf_shemagh2_gogg_grn"",""rhs_uniform_g3_blk"",""rhsusf_opscore_bk"",""rhsusf_opscore_bk_pelt"",""H_HelmetB_black"",""rhsusf_protech_helmet"",""rhsusf_protech_helmet_ess"",""rhsusf_protech_helmet_rhino"",""rhsusf_protech_helmet_rhino_ess"",""U_O_R_Gorka_01_black_F""],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],[[""B_AssaultPack_blk"",""B_TacticalPack_blk"",""B_ViperHarness_blk_F"",""B_LegStrapBag_black_F"",""B_RadioBag_01_black_F""],[1,1,1,1,1]]],false]";
 						};
 					};
 				};
