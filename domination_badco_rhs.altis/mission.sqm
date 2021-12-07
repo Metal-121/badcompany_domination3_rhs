@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={26496.752,-5.856544,24734.195};
-		dir[]={-0.042986047,-0.99541384,0.085460253};
-		up[]={-0.44729173,0.09566246,0.88925749};
-		aside[]={0.89335454,0,0.44935253};
+		pos[]={26498.973,-6.2930984,24740.984};
+		dir[]={-0.0071343295,-0.99994999,0.0070069213};
+		up[]={-0.71341294,0.00999978,0.70067251};
+		aside[]={0.70070755,0,0.71344864};
 	};
 };
 binarizationWanted=0;
@@ -36570,8 +36570,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={26895.635,24.020664,24903.307};
-				angles[]={6.2432065,2.3985012,0.015998369};
+				position[]={26895.635,24.020662,24903.307};
+				angles[]={6.2431998,2.3985012,0.016004669};
 			};
 			side="Empty";
 			flags=4;
@@ -36579,11 +36579,10 @@ class Mission
 			{
 				lock="UNLOCKED";
 				name="d_chopper_8";
-				pylons=";rhs_mag_M229_19;rhs_mag_AGM114L_4[0];rhs_mag_AGM114K_4[0];rhs_mag_M229_19;rhs_mag_ATAS_AH64_2;rhsusf_M130_CMFlare_Chaff_Magazine_x2;";
+				pylons=";rhs_mag_M229_19;rhs_mag_AGM114K_4[0];rhs_mag_AGM114L_2[0];rhs_mag_M229_19;rhs_mag_ATAS_AH64_2;rhsusf_M130_CMFlare_Chaff_Magazine_x2;";
 			};
 			id=7826;
 			type="RHS_AH64D";
-			atlOffset=1.9073486e-006;
 			class CustomAttributes
 			{
 				class Attribute0
