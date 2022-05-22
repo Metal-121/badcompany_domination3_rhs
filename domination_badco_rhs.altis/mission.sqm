@@ -14166,13 +14166,14 @@ class Mission
 			class PositionInfo
 			{
 				position[]={26707.707,21.917387,24558.35};
-				angles[]={0.022662206,3.8445053,0.015998369};
+				angles[]={0.022654373,3.8445065,0.016004669};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
 				skill=0.60000002;
+				init="this hideObject true";
 				name="d_wreck_rep";
 			};
 			id=7018;
