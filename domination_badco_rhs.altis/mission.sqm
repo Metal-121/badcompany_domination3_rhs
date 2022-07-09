@@ -8,7 +8,7 @@ class EditorData
 	toggles=9;
 	class ItemIDProvider
 	{
-		nextID=8939;
+		nextID=8941;
 	};
 	class MarkerIDProvider
 	{
@@ -20,10 +20,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={26498.973,-6.2930984,24740.984};
-		dir[]={-0.0071343295,-0.99994999,0.0070069213};
-		up[]={-0.71341294,0.00999978,0.70067251};
-		aside[]={0.70070755,0,0.71344864};
+		pos[]={26477.09,-11.174595,24730.361};
+		dir[]={-0.0083441455,-0.99994999,0.0055109747};
+		up[]={-0.83439118,0.00999978,0.55108207};
+		aside[]={0.55110961,0,0.8344329};
 	};
 };
 binarizationWanted=0;
@@ -141,13 +141,14 @@ addons[]=
 	"A3_Structures_F_Enoch_VR_Helpers",
 	"rhsusf_c_m11xx",
 	"A3_Soft_F_Offroad_01",
-	"rhsusf_c_stryker"
+	"rhsusf_c_stryker",
+	"A3_Static_F_Jets_AAA_System_01"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=56;
+		items=57;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -538,6 +539,13 @@ class AddonsMetaData
 			author="Red Hammer Studios";
 			url="http://www.rhsmods.org/";
 		};
+		class Item56
+		{
+			className="A3_Static_F_Jets";
+			name="Arma 3 Jets - Turrets";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 class DynamicSimulation
@@ -653,7 +661,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=1369;
+		items=1371;
 		class Item0
 		{
 			dataType="Marker";
@@ -61644,6 +61652,46 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item1369
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={27222.352,28.833725,24926.252};
+				angles[]={6.2591896,3.8603191,0.086450629};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				lock="UNLOCKED";
+				name="d_vec_baseaa_1";
+				reportRemoteTargets=1;
+				receiveRemoteTargets=1;
+				reportOwnPosition=1;
+				aiRadarUsage=1;
+			};
+			id=8939;
+			type="B_AAA_System_01_F";
+			atlOffset=-0.0029144287;
+		};
+		class Item1370
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={27222.199,26.660561,24929.846};
+				angles[]={0,3.8886983,0};
+			};
+			side="Empty";
+			flags=5;
+			class Attributes
+			{
+				disableSimulation=1;
+			};
+			id=8940;
+			type="Land_Walkover_01_F";
 		};
 	};
 };
